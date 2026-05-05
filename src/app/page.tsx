@@ -57,9 +57,9 @@ const certificates = [
 ];
 
 export default function Home() {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
 
-  const scroll = (direction) => {
+  const scroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
       const scrollAmount = 300;
       if (direction === 'left') {
