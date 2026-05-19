@@ -27,6 +27,13 @@ const projects = [
     tag: "Laravel",
     url: "https://github.com/rafiody16/PBL_Fastcili-TI",
   },
+  {
+    num: "03",
+    title: "Retail Sales Analytics Dashboard",
+    desc: "The Retail Sales Analytics Dashboard is an end-to-end Business Intelligence solution developed to evaluate retail performance for PT. Indomarci Prismatami. Created as a final project for a Business Intelligence course, this simulation utilizes a dummy dataset to replicate real-world corporate data challenges. The project involves engineering a robust ETL pipeline using Pentaho Data Integration to build a Star Schema Data Warehouse. The processed data is then visualized through an interactive Looker Studio dashboard, specifically tailored to identify top-selling products and compare monthly revenue trends between two distinct branch models (Betamart and Matahariku). This project demonstrates the ability to transform raw operational data into actionable strategic insights for management.",
+    tag: "Pentaho & Looker Studio",
+    url: "https://github.com/rafiody16/Indomarci",
+  },
 ];
 
 const certificates = [
